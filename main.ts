@@ -3,7 +3,7 @@ function start_game2 () {
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile3`, function (sprite, location) {
     tiles.setCurrentTilemap(tilemap`level_0`)
-    tiles.placeOnRandomTile(mySprite, sprites.swamp.swampTile0)
+    tiles.placeOnRandomTile(mySprite, assets.tile`transparency16`)
 })
 function start_game () {
     tiles.setTilemap(tilemap`level9`)
